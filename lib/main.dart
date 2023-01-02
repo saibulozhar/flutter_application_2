@@ -2,8 +2,10 @@ import 'package:flutter_application_2/hello_world.dart';
 import 'package:flutter_application_2/column_widget.dart';
 import 'package:flutter_application_2/row_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/ui/button.dart';
 import 'package:flutter_application_2/ui/produk_detail.dart';
 import 'package:flutter_application_2/ui/produk_form.dart';
+import 'package:flutter_application_2/ui/produk_page.dart';
 
 void main() {
   runApp (const MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Aplikasi flutter',
-      home: ProdukDetail(),
+      home: ButtonBaru(),
     );
   }
 }
